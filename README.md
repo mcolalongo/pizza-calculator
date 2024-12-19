@@ -3,7 +3,8 @@ This repository contains my pizza dough calculator depending on the hydration an
 
 ## How to use it
 You could check the main.py file. Though:
-```
+
+```python
 from pizza import Pizza
 
 # Initialize the Pizza Obj
