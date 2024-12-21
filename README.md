@@ -18,7 +18,7 @@ h2o = mypizza.get_doughH2O()   # Amount of water to use for the dough mixture co
 mypizza.all_the_ingredients()
 ```
 
-However, by experience, for a full belly and satisfying pizza for the guests x1 pizza per person is not sufficient. Better to use the PizzaAbundant() class
+However, by experience, for a full belly and satisfying pizza night with friends, x1 pizza per person is not sufficient. Better to use the PizzaAbundant() class which considers x1.5 pizzas per person
 Therefore:
 ```python
 from pizza import PizzaAbundant
