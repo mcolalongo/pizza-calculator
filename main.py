@@ -3,5 +3,5 @@
 
 from pizza import Pizza
 
-mypizza = Pizza(6, 65)
+mypizza = Pizza(4, 70)
 mypizza.all_the_ingredients()

@@ -84,9 +84,9 @@ class Pizza:
 
 class PizzaAbundant:
 
-        """
-        Class for full belly pizza. Usually 1 pizza per person is not enough having so usually 1.5 pizza per person is a golden rule.
-        """
+    """
+    Class for full belly pizza. Usually 1 pizza per person is not enough to have, so usually 1.5 pizza per person is a golden rule.
+    """
     
     def __init__(self, npeople, hydr):
         '''
