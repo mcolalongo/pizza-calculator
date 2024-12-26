@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 
 
-from pizza import Pizza
+from pizza import Pizza, PizzaAbundant
 
-mypizza = Pizza(4, 70)
+mypizza = Pizza(15, 70)
 mypizza.all_the_ingredients()
+
+
+morepizza = PizzaAbundant(15, 70)
+morepizza.all_the_ingredients()
