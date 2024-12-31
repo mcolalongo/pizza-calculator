@@ -105,6 +105,8 @@ class PizzaAbundant(Pizza):
         '''
         The constructor accepts no. of people at dinner and the dough hydration
         '''
-        super().__init__(npeople, hydr)
+        # super().__init__(npeople, hydr) # So calling the constructor
+        # of the Pizza ParentClass should be necessary if I add attributes to the PizzaAbundand object instance. However, this is not the case!
+        # so the super function is not necessary
         self.hydr = hydr
-        self.npeople = npeople
+        self.npeople = npeople * 1.5 #multpiplier for the dough making
