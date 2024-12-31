@@ -82,6 +82,18 @@ class Pizza:
         print("-----------------------------------------------------------------------------------------------------------------")
 
 
+    def all_table(self):
+        '''
+        This method prints on screen all needed for the dough mixture but in a small table 
+
+        Returns
+        -------
+        print all the needed ingredients in table format
+        '''
+        print("+-----------+-----------+-----------+\n| total(kg) | flour(kg) |  H2O(kg)  |\n+-----------+-----------+-----------+")
+        print(f"|   {self.get_doughTotalWeightKg():.3f}   |   {self.get_doughflour():.3f}   |   {self.get_doughH2O():.3f}   |\n+-----------+-----------+-----------+")
+
+
 class PizzaAbundant:
 
     """
@@ -168,3 +180,15 @@ class PizzaAbundant:
         print("-----------------------------------------------------------------------------------------------------------------")
         print(f"Out of the total {self.get_doughTotalWeightKg():.3f}kg, {self.get_doughflour():.3f}kg is flour and {self.get_doughH2O():.3f}kg is H2O")
         print("-----------------------------------------------------------------------------------------------------------------")
+
+
+    def all_table(self):
+        '''
+        This method prints on screen all needed for the dough mixture but in a small table 
+
+        Returns
+        -------
+        print all the needed ingredients in table format
+        '''
+        print("+-----------+-----------+-----------+\n| total(kg) | flour(kg) |  H2O(kg)  |\n+-----------+-----------+-----------+")
+        print(f"|   {self.get_doughTotalWeightKg():.3f}   |   {self.get_doughflour():.3f}   |   {self.get_doughH2O():.3f}   |\n+-----------+-----------+-----------+")

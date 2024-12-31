@@ -9,3 +9,4 @@ mypizza.all_the_ingredients()
 
 morepizza = PizzaAbundant(15, 70)
 morepizza.all_the_ingredients()
+morepizza.all_table()
