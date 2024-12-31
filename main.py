@@ -4,9 +4,10 @@
 from pizza import Pizza, PizzaAbundant
 
 mypizza = Pizza(15, 70)
-mypizza.all_the_ingredients()
+#mypizza.all_the_ingredients()
+mypizza.all_table()
 
 
 morepizza = PizzaAbundant(15, 70)
-morepizza.all_the_ingredients()
+#morepizza.all_the_ingredients()
 morepizza.all_table()
