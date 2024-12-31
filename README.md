@@ -2,7 +2,7 @@
 This repository contains my pizza dough calculator depending on the hydration and no. people
 
 ## How to use it
-You could check the main.py file. Though:
+The main.py file contains the code I personally use. Though, the code could be also used as follows:
 
 ```python
 from pizza import Pizza
