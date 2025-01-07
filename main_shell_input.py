@@ -14,5 +14,5 @@ mypizza.all_table()
 
 morepizza = PizzaAbundant(np, hd)
 #morepizza.all_the_ingredients()
-print(f"\nfull belly pizza for {mypizza.npeople} same hydration")
+print(f"\nfull belly pizza for {morepizza.npeople} same hydration")
 morepizza.all_table()
